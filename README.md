@@ -1,4 +1,4 @@
-# AWS-practica-final
+# AWS "Remember the bread" sample app project
 Simple project to deploy resources in AWS, which will create the schema seen in the image.
 ![plot](./images/1.jpg)
 Basically it is a simple app called "remember the bread", the deployment consist of a load balancer to redirect the traffic to the servers (just the load balancer can communicate with the servers), the webapp servers are deployed in 2 different zones for high availability, these servers communicate with a DB (MySQL) which is configured through a Secrets Manager.
